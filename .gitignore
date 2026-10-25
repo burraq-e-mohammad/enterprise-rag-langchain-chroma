@@ -1,0 +1,26 @@
+# Python & Virtual Environments
+venv/
+.venv/
+env/
+__pycache__/
+*.pyc
+*.pyo
+
+# Sensitive environment variables & API keys (CRITICAL)
+.env
+*.env
+.env.local
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+
+# Vectorstore / Database local storage
+intro-to-ds-lectures/
+chroma_db/
+*.sqlite3
+
+# IDE / OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
